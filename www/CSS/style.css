@@ -1,0 +1,56 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: #333;
+    background: #0c2f4b;
+    font-size: 1em;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 135%;
+}
+
+a {
+    color: darkorange;
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+}
+
+a:hover {
+    color: darkgoldenrod;
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+}
+
+a:active {
+    color: crimson;
+}
+
+::selection {background-color: darkorange; color: black}
+-moz-::selection {background-color: darkorange; color: black}
+
+header, footer {
+    width: 100%;
+    background-color: #0c2b4b;
+    min-height: 50px;
+}
+
+header {
+    border-bottom: 2px solid silver;
+    
+}
+
+footer {
+    border-top: 2px solid silver;
+    margin-top: 10px;
+}
