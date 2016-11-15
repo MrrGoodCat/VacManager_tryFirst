@@ -15,6 +15,23 @@ body {
     line-height: 135%;
 }
 
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.content {
+    height: 160px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 800px;
+    background-color: white;
+}
 a {
     color: darkorange;
     text-decoration: none;
@@ -51,13 +68,13 @@ header, footer {
     width: 98%;
     background-color: #0c2b4b;
     padding: 10px;
-    min-height: 50px;
+    min-height: 30px;
 }
 
 header {
     border-bottom: 2px solid silver;
     padding: 1%;
-    
+    max-height: 100px;
 }
 
 span {}
@@ -66,6 +83,8 @@ footer {
     border-top: 2px solid silver;
     margin-top: 10px;
     padding: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
+    position: absolute;
+    bottom: 0;
 }
-footer img {padding: 1%}
+footer img {padding: 0%}
