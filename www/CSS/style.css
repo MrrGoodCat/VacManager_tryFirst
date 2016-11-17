@@ -9,14 +9,14 @@ body {
     width: 100%;
     height: 100%;
     color: white;
-    background: #0c2f4b;
+    background-color: cadetblue;
     font-size: 1em;
     font-family: "Segoe UI", sans-serif;
     line-height: 135%;
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     height: 100%;
     margin: auto;
 }
@@ -58,33 +58,122 @@ a:active {
 -moz-::selection {background-color: darkorange; color: black}
 
 img {
-    height: auto;
+
 }
 
+.logoContainer {
+    float: left;
+    height: 140px;
+    width: 150px;
+    background-color:  #0c2f4b;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+#logo {
+    width: 100%;
+    margin-top: -10%;
+}
+
+#User_img {
+    width: 93%;
+    margin-left: 3%;
+        
+}
+.title {
+    float: left;
+    margin-top: 40px;
+    font-size: 2.1em;
+    margin-left: 4%;
+}
+
+.user {
+    float: right;
+    height: 100px;
+    width: 400px;
+    margin-right: 15%;
+}
+
+.user_logo {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    float: right;
+    margin-right: 1%;
+    margin-top: 5px;
+    border-radius: 45px;
+}
+
+.userName {
+    float: right;
+    margin-top: 40px;
+    font-size: 1.5em;
+    margin-right: 2%;
+}
+
+#userMenuButton{
+    float: right;
+    margin-top: 40px;
+}
+
+#userMenuImg {
+    width: 16px;
+    height: 12px;
+}
 .right {float: right;}
 .left {float: left;}
 
 header, footer {
     width: 98%;
-    background-color: #0c2b4b;
-    padding: 10px;
+    background-color: #0c2f4b;
     min-height: 30px;
+    min-width: 1150px;
 }
 
 header {
-    border-bottom: 2px solid silver;
-    padding: 1%;
+
+    padding-left: 1%;
+    padding-right: 1%;
     max-height: 100px;
+    min-height: 100px;
 }
 
+.menu {
+    height: 25px;
+    width: 600px;
+    min-width: 600px;
+    margin: auto;
+}
+.menuItem {
+    height: 25px;
+    width: 170px;
+    margin: auto;
+    float: left;
+    background-color: #0c2f4b;
+    border-bottom-right-radius: 20px;
+    padding-left: 30px;
+}
+
+#vacations {
+
+}
+
+#sick_leave {
+    
+}
+
+#about {
+    
+}
 span {}
 
 footer {
-    border-top: 2px solid silver;
+    width: 98%;
     margin-top: 10px;
     padding: 1%;
     padding-bottom: 1%;
     position: absolute;
     bottom: 0;
+    
 }
 footer img {padding: 0%}
